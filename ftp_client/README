@@ -1,0 +1,16 @@
+ftp_client
+├── README
+├── bin # 执行文件 目录
+│   ├── __init__.py
+│   └── client.py # 客户端执行程序
+├── conf # 配置文件
+│   └── __init__.py
+├── core # 核心文件 目录
+│   ├── __init__.py
+│   ├── ftp_client.py # FTP客户端核心程序
+│   ├── main.py       # 客户端启动程序
+│   └── protocol.py   # 数据解析协议
+├── data # 用户数据目录
+│   └── downloads     # 用户下载目录
+└── log # 日志目录
+    └── __init__.py
